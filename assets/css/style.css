@@ -25,7 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,11 +33,11 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -105,8 +105,8 @@ aside section img {
     margin-left: 25px;
 }
 
-/* Refactored content divs into a singular class "search-op" to remove redundant styling */
-.search-op {
+/* refactored content divs and classes into main element and compiled redundant style classes into main's img and h2 child elements */
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -114,24 +114,14 @@ aside section img {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* Refactord image size for each id img into the search-op class to remove redundant styling */
-.search-op img {
+
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+main section img {
     max-height: 200px;
-}
-
-#search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
