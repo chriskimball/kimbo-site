@@ -1,3 +1,4 @@
+/* styling for global attributes and elements */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,7 +9,16 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Moved header class styling to Header element */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* styling for header elements and navigation bar */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,23 +52,53 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
+/* banner image styling */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* styling for the main content area */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* refactored "benefits", "benefit-lead", "benefit-brand", "benefit-cost" class styling into aside element css */
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+main section img {
+    max-height: 200px;
+}
+
+/* alignment styling for main content images */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* styling for side bar elements */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,44 +126,7 @@ aside section img {
     max-width: 150px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/* refactored content divs and classes into main element and compiled redundant style classes into main's img and h2 child elements */
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-main section img {
-    max-height: 200px;
-}
-
+/* styling for footer elements */
 footer {
     padding: 30px;
     clear: both;
