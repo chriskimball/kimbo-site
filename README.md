@@ -9,14 +9,16 @@
 The following project is the refactoring of code for the main website of the company, <strong>Horiseon Social Solution Services</strong>. 
 The previous build of the Horiseon's website did not meet standard accessiblility guidelines, contained a broken section link, and had several areas of redundant code and styling.
 The content, function, and styling of the website remained the same in the new build.
+
 This new build includes the following improvements:
-* Clear and concise webpage title was added to improve search engine optimization
-* Increased accessibility by inclusion of ``alt`` image descriptions
+* Clear and concise webpage title was added to improve search engine optimization.
+* All hyperlinks functioning correctly.
+* Increased accessibility with the inclusion of ``alt`` image descriptions.
 * Restructured html content to have semantic html structure, including a clear ``header`` with ``nav`` links, with ``main`` and ``aside`` content separated into clear ``sections`` and ``footer`` that contains copyright and site credits.
-* This improved semantic html structure will allow for better accessibility in addition to improving the company's search engine optimization.
+* This improved semantic html structure will allow for better accessibility in addition to improving the website's search engine optimization.
 * The css for the website has been consolidated into semantic elements rather than multiple redundant ``classes`` and ``ids``.
-* The css properties follow the logical order of the semantic html structure to allow for consistent styling for similar elements in future builds.
-* Clear and concise comments have been left throughout both html and css markup to allow other developers to clearly identify each section of the website and relevant styling.
+* The css follows the same logical order as the semantic html structure to allow for consistent styling of similar elements in future builds.
+* Clear and concise comments have been left throughout both html and css codebase to allow future developers to clearly identify each section of the html markup and relevant styling.
 
 
 ### Web addresses
